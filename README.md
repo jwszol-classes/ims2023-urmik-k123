@@ -29,14 +29,16 @@ Kinesis Consumer: It would be responsible for reading the processed data from th
 
 
 Well, we can implement this project just by using Apache Spark without the need for a messaging system like Kafka or Kinesis:
-The data can then be analyzed to provide insights into air traffic patterns in Poland.
+The data can then be analyzed to provide insights into air traffic patterns in Poland. I have used simple spark operations to count number of arrivals and departures every hour.
 ## Deployment
 The system is deployed on AWS EMR, a fully managed cloud service that allows for the easy deployment and management of Spark clusters. 
 ## Visualizing the data on the map
 The map shows the scattering path of flights passing over Poland.
 It can also display other relevant information, such as flight number, altitude, speed, and destination.
 ## Problems faced
-The data from API was quite a problem as there were many none values . Therefore, it was problematic to do bigger analysis.
+The data from API was quite a problem as there were many none values . Therefore, it was problematic to do bigger analysis. It has quite small, limited response length, so it returns only about 100 planes, I think it was a limitation.
+There were limited amount of free API requests.
+
 
 
 ## Conclusion and further improvement of monitoring.
