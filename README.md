@@ -1,8 +1,6 @@
 
 # Intelligent Measurement System Project-Real-time Air Traffic Monitoring Platform
 
-A brief description of what this project does and who it's for
-
 
 ## Author
 Urmik Kanjaria (191887)
