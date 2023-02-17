@@ -16,6 +16,8 @@ This project aims to design and implement a real-time analytical platform to mon
 The platform is designed to be scalable and distributed, making use of Spark and queueing systems. The system architecture allows for real-time data processing and analysis, allowing the user to monitor air traffic patterns and detect anomalies.
 ## Technologies used
 AWS EMR/Spark/Python
+![image](https://user-images.githubusercontent.com/125029398/219525630-ca3fe083-4569-45ec-886b-0778bd299307.png)
+
 
 ## Data Source
 The AviationStack API provides real-time flight data, including flight schedules, flight status, and flight tracking. The data is available in JSON format and is updated in real-time.
